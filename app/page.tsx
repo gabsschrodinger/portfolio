@@ -1,3 +1,4 @@
+import { LetterCarousel } from "@/components/letterCarousel";
 import { ProgressBar } from "@/components/progressBar";
 import { headers } from "next/headers";
 
@@ -18,7 +19,9 @@ export default async function Page() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <header className="relative flex flex-col place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <h1 className="text-7xl font-mono">gabriel fernandes ribeiro</h1>
-        <h2 className="text-4xl mt-10 font-mono">technologist</h2>
+        <h2 className="text-4xl mt-10 font-mono">
+          <LetterCarousel />
+        </h2>
       </header>
 
       <div className="mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
