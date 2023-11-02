@@ -1,0 +1,38 @@
+[
+  {
+    "skill": "TypeScript",
+    "level": 100
+  },
+  {
+    "skill": "JavaScript",
+    "level": 100
+  },
+  {
+    "skill": "Python",
+    "level": 80
+  },
+  {
+    "skill": "pySpark",
+    "level": 80
+  },
+  {
+    "skill": "NodeJS",
+    "level": 90
+  },
+  {
+    "skill": "Java",
+    "level": 75
+  },
+  {
+    "skill": "React",
+    "level": 60
+  },
+  {
+    "skill": "NextJS",
+    "level": 60
+  },
+  {
+    "skill": "Databricks",
+    "level": 70
+  }
+]
