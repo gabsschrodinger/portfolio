@@ -38,7 +38,7 @@ export default async function Page() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            List of the companies I worked for.
           </p>
         </a>
 
@@ -55,7 +55,7 @@ export default async function Page() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Professional and personal projects.
           </p>
         </a>
 
@@ -72,7 +72,7 @@ export default async function Page() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
+            Articles I worked based on my professional experience or academic studies.
           </p>
         </a>
 
@@ -89,7 +89,7 @@ export default async function Page() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Courses I took to improve my skills.
           </p>
         </a>
       </div>
