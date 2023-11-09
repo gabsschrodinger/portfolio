@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from "react";
 import "./styles.css";
@@ -18,14 +18,14 @@ export const LetterCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % titles.length);
-    }, 1000);
-    
+    }, 2000);
+
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="carousel-container">
-      <div className="carousel">
+    <div className="flex justify-center items-center">
+      <div className="carousel relative w-52 h-52">
         {titles.map((title, index) => {
           let j = (currentIndex + index) % titles.length;
           let percent = j / titles.length;
@@ -36,10 +36,12 @@ export const LetterCarousel = () => {
           return (
             <div
               key={title}
-              className={`carousel__item ${index === currentIndex ? "active" : ""}`}
-              style={{ 
-                transform: `perspective(100px) translateZ(${tz}px) translateY(${ty}%)`, 
-                opacity: `${op}`
+              className={`carousel__item absolute top-2/4 left-0 w-full h-fit flex items-center justify-center text-center whitespace-nowrap ${
+                index === currentIndex ? "active" : ""
+              }`}
+              style={{
+                transform: `perspective(100px) translateZ(${tz}px) translateY(${ty}%)`,
+                opacity: `${op}`,
               }}
             >
               {title}

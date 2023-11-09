@@ -1,27 +1,8 @@
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .carousel {
-  position: relative;
-  width: 200px;
-  height: 200px;
   perspective: 1200px;
   transform-style: preserve-3d;
 }
 
 .carousel__item {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: transform 1s ease-in-out, opacity 1s ease-in-out;
-  text-align: center;
-  white-space: nowrap;
 }
